@@ -13,7 +13,6 @@ public class MahasiswaController {
 
     @PostMapping("/login")
     public DefaultResponse login(@RequestBody LoginDto loginDto){
-
         DefaultResponse df = new DefaultResponse();
         df.setStatus(Boolean.TRUE);
         df.setMessage("Selamat Login Berhasil");
